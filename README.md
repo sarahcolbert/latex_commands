@@ -6,7 +6,7 @@
 ### How to use find to search for bracketed citations
 
 ```
-\[\d+(?:[-,]\d+)*\]
+\[\d+(?:,\s*\d+)*\]
 ```
 
 ### How to use find to search for abstract/keywords
