@@ -11,12 +11,12 @@
 
 ### How to use find to search for abstract/keywords
 
+find and replace with nothing:
 ```
 abstract\s*=\s*"(.|\n)*?",
 ```
 
-### How to remove empty lines
-find:
+then find:
 ```
 \n[ \t]*\n
 ```
